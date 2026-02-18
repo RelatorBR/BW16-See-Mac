@@ -1,4 +1,4 @@
-HOW to 
+📋 How to 
 
 1 - Copy [this whole code](https://github.com/RelatorBR/BW16---See-Mac/blob/main/BW16_see_mac.ino) and paste it into Arduino IDE
 
