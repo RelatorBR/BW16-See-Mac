@@ -20,7 +20,7 @@ void setup() {
   }
   Serial.println();
 
-  Serial.print("Formato para hash (sem dois pontos): ");
+  Serial.print("Format to hash: ");
   for (int i = 0; i < 6; i++) {
     if (mac[i] < 16) Serial.print("0");
     Serial.print(mac[i], HEX);
