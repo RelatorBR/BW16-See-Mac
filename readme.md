@@ -1,6 +1,7 @@
 HOW to 
 
-1 - Copy this whole code and paste on Arduino IDE
+1 - Copy [this whole code](https://github.com/RelatorBR/BW16---See-Mac/blob/main/BW16_see_mac.ino) and paste it into Arduino IDE
+
 
 2 - Connect your board, select COM port and hit upload
 
