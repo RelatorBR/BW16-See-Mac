@@ -9,5 +9,6 @@ HOW to
 4 - Output
 
 
-<img width="562" height="246" alt="image" src="https://github.com/user-attachments/assets/cc0e1db8-1380-4b6e-a77c-0959fa0f980e" />
+<img width="417" height="196" alt="image" src="https://github.com/user-attachments/assets/1cfa3c6d-3fb0-45a6-9cb3-e7a8dc34456f" />
+
 
