@@ -1,5 +1,7 @@
 📋 How to:
 
+After [download](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe) and install Arduino IDE, please follow these steps :
+
 1 - Copy [board manager URL for Realtek MCU´s url ](https://raw.githubusercontent.com/Ameba-AIoT/ameba-arduino-d/master/Arduino_package/package_realtek_amebad_index.json), on arduino IDE : File > Preferences > Additional boards manager URLs > Paste url > Press ok.
 
 2 - Copy [this whole code](https://github.com/RelatorBR/BW16---See-Mac/blob/main/BW16_see_mac.ino) and paste it into Arduino IDE.
