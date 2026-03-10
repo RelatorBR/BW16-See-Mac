@@ -27,15 +27,17 @@ ___________________________________________________________________
 3️⃣Upload the Code
 
 1 - Copy [this whole code](https://github.com/RelatorBR/BW16---See-Mac/blob/main/BW16_see_mac.ino) and paste it into Arduino IDE
-2 - Select the correct board:
+
+2 - Plug your bw16 on Computer > Hold the BOOT button > While holding BOOT, press and release RESET > Release the BOOT button > The BW16 is now in flash mode.
+
+3 - Select the correct board:
 ```
 Tools → Board → BW16 (RTL8720DN)
 ```
-3 - Select the correct port:
+4 - Select the correct port:
 ```
 Tools → Port → [Your Device Port]
 ```
-4 - Click Upload
 
 5- After Finish go to tools> serial monitor > press reset.
 
