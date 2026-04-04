@@ -39,7 +39,10 @@ Tools → Board → BW16 (RTL8720DN)
 Tools → Port → [Your Device Port]
 ```
 
-5- After Finish go to tools> serial monitor > press reset.
+5- After Finish go to tools> serial monitor > set speed 155200 baud press reset.
+
+<img width="285" height="106" alt="image" src="https://github.com/user-attachments/assets/1f0d2a7a-d401-46f3-b1ee-65533202b617" />
+
 
 6 - Output:
 
