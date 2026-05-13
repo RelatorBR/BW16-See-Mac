@@ -27,7 +27,7 @@ Then:
 
 Choose the **See_Mac** option:
 
-<img width="803" height="201" alt="3" src="https://github.com/user-attachments/assets/2e42ce4a-5be4-4b63-9d4d-6e176aa54ff7" />
+<img width="770" height="159" alt="image" src="https://github.com/user-attachments/assets/3c5ec442-55fd-4611-b707-14ba1ace6452" />
 
 ---
 
