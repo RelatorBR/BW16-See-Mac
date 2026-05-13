@@ -1,49 +1,78 @@
-📋 How to:
-_________________________________________________________________
+# 📋 How to Flash & Get MAC Address (BW16)
 
-1️⃣ Install Arduino IDE
+## 🌐 Step 1 — Open Dawg Flasher
 
-[Download](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe) and install the official Arduino IDE
+Access the website below:
 
-_________________________________________________________________
-2️⃣ Add BW16 (RTL8720DN) Board Support
+👉 [Dawg Flasher Website](https://dawg-flasher.vercel.app/?utm_source=chatgpt.com)
 
-1 - Open Arduino IDE
+---
 
-2 - Go to File → Preferences
+## 🔌 Step 2 — Connect Your BW16
 
-3 - In Additional Boards Manager URLs, add:
-```
-https://raw.githubusercontent.com/Ameba-AIoT/ameba-arduino-d/master/Arduino_package/package_realtek_amebad_index.json
-```
-4 - Click OK
+Click **Connect**:
 
-5 - Go to Tools → Board → Boards Manager
+<img width="301" height="136" alt="1" src="https://github.com/user-attachments/assets/ccdac3b8-146a-4d79-954b-e075334064d2" />
 
-6 - Search for Ameba
+Then:
 
-7 - Install the latest version
-___________________________________________________________________
-3️⃣Upload the Code
+- Select the **BW16 COM Port**
+- Click **Connect**
 
-1 - Copy [this whole code](https://github.com/RelatorBR/BW16---See-Mac/blob/main/BW16_see_mac.ino) and paste it into Arduino IDE
+<img width="444" height="461" alt="2" src="https://github.com/user-attachments/assets/a4389eff-76dd-4149-83fa-906a67f29395" />
 
-2 - Plug your bw16 on Computer > Hold the BOOT button > While holding BOOT, press and release RESET > Release the BOOT button > The BW16 is now in flash mode.
+---
 
-3 - Select the correct board:
-```
-Tools → Board → BW16 (RTL8720DN)
-```
-4 - Select the correct port:
-```
-Tools → Port → [Your Device Port]
-```
+## ⚙️ Step 3 — Select Firmware Option
 
-5- After Finish go to tools> serial monitor > set speed 155200 baud press reset.
+Choose the **See_Mac** option:
 
-<img width="285" height="106" alt="image" src="https://github.com/user-attachments/assets/1f0d2a7a-d401-46f3-b1ee-65533202b617" />
+<img width="803" height="201" alt="3" src="https://github.com/user-attachments/assets/2e42ce4a-5be4-4b63-9d4d-6e176aa54ff7" />
 
+---
 
-6 - Output:
+## 🚀 Step 4 — Start Flashing
 
-<img width="417" height="196" alt="image" src="https://github.com/user-attachments/assets/1cfa3c6d-3fb0-45a6-9cb3-e7a8dc34456f" />
+Click **Start Flash**:
+
+<img width="797" height="76" alt="4" src="https://github.com/user-attachments/assets/dbc354c2-0578-47d5-854a-dcb4d1d2b8cf" />
+
+Wait until the flashing process is completed.
+
+---
+
+## 🖥️ Step 5 — Open Serial Monitor
+
+After the flash is finished:
+
+- Select **Serial Monitor**
+
+<img width="182" height="50" alt="5" src="https://github.com/user-attachments/assets/63c07063-74c0-4e2c-8c91-5f4172eb1421" />
+
+Then click **Connect Monitor**:
+
+<img width="221" height="68" alt="6" src="https://github.com/user-attachments/assets/a6034c6e-8acd-43f3-893b-343ece01bb20" />
+
+---
+
+## 🔗 Step 6 — Connect the COM Port Again
+
+Select the **BW16 COM Port** and click **Connect**:
+
+<img width="444" height="461" alt="2" src="https://github.com/user-attachments/assets/a4389eff-76dd-4149-83fa-906a67f29395" />
+
+---
+
+## 📡 Step 7 — Get MAC Address
+
+Press the **physical RESET button** on the BW16 board.
+
+The MAC Address will appear in the Serial Monitor output:
+
+<img width="810" height="348" alt="8" src="https://github.com/user-attachments/assets/ed69f210-0b1d-4e3d-9fa0-4392c3bed0ad" />
+
+---
+
+# ✅ Done
+
+Your BW16 MAC Address should now be visible in the monitor output.
