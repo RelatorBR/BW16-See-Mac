@@ -4,7 +4,7 @@
 
 Access the website below:
 
-👉 [Dawg Flasher Website](https://dawg-flasher.vercel.app/?utm_source=chatgpt.com)
+👉 [Dawg Flasher Website](https://dawg-flasher.vercel.app/)
 
 ---
 
