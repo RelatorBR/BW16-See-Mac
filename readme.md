@@ -74,5 +74,3 @@ The MAC Address will appear in the Serial Monitor output:
 ---
 
 # ✅ Done
-
-Your BW16 MAC Address should now be visible in the monitor output.
